@@ -23,7 +23,7 @@ jobs:
             python -m pip install --upgrade pip
         
         - name: Install dependencies
-          run:
+          run: |
             pip install flask
             pip install pytest
 
