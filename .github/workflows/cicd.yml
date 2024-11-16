@@ -28,8 +28,7 @@ jobs:
             pip install pytest
 
         - name: Run tests
-          run:
-            Pytest
+          run: pytest
 
     build-and-publish:
         needs: build-and-test
